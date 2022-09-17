@@ -1,0 +1,28 @@
+###
+POST http://127.0.0.1:9000/api/shops/add HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "leslie",
+    "descripcion": "esto es la primera prueba de nodejs",
+    "phone" : "1212121211",
+    "email": "lesliemurias",
+    "type": "ssss",
+    "updateAt": "123456",
+    "creatdAt": "123456"
+}
+
+###
+GET http://localhost:9000/api/shops/all HTTP/1.1
+Content-Type: application/json
+
+{
+
+}
+###
+GET http://127.0.0.1:9000/api/shops/test HTTP/1.1
+Content-Type: application/json
+
+{
+
+}
